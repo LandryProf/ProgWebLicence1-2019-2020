@@ -38,7 +38,7 @@
 		</p>
 		<li><h3>
 			En fait, votre compte rendu est pas vraiment en HTML, vous devriez organiser 
-			les questions pour quelles soit automatiquement numéroté par le navigateur.
+			les questions pour quelles soit automatiquement num&eacute;rot&eacute; par le navigateur.
 			Comment faire ?
 		</h3></li>
 		<p>
@@ -65,6 +65,98 @@
 		<p>
 			<a href="http://forax.github.io/course/progweb/"> Cours de programmation web </a>
 		</p>
+		<li><h3>
+			On souhaite que le titre de la fenêtre du navigateur soit "Compte Rendu de TP2",
+			comment faire ?
+		</h3></li>
+	</ol>
+	<h2> Exercice 3 - Les listes et les tables </h2>
+	<ol>
+		<li><h3>Ecrire une liste à puces</h3></li>
+		<ul>
+			<li>math</li>
+			<li>physique</li>
+			<li>français</li>
+		</ul>
+		<li><h3>Ecrire une table de multiplication sous forme de tableau</h3></li>
+		<table>
+			<tr>
+				<td> </td>
+				<th>1</th>
+				<th>2</th>
+				<th>3</th>
+				<th>4</th>
+			<tr>
+			<tr>
+				<th>1</th>
+				<td>1</td>
+				<td>2</td>
+				<td>3</td>
+				<td>4</td>
+			</tr>
+			<tr>
+				<th>2</th>
+				<td>2</td>
+				<td>4</td>
+				<td>6</td>
+				<td>8</td>
+			</tr>
+			<tr>
+				<th>3</th>
+				<td>3</td>
+				<td>6</td>
+				<td>9</td>
+				<td>12</td>
+			</tr>
+			<tr>
+				<th>4</th>
+				<td>4</td>
+				<td>8</td>
+				<td>12</td>
+				<td>16</td>
+			</tr>
+		</table>
+		<li><h3>
+			On souhaite ajouter une case faisant 2 colonnes et une case 
+			faisant deux lignes dans une nouvelle table.
+		<h3></li>
+		<table border="1">
+			<tr>
+				<td> </td>
+				<th>1</th>
+				<th>2</th>
+				<th>3</th>
+				<th>4</th>
+			<tr>
+			<tr>
+				<th>1</th>
+				<td>1</td>
+				<td>2</td>
+				<td>3</td>
+				<td rowspan="2">4</td>
+			</tr>
+			<tr>
+				<th>2</th>
+				<td>2</td>
+				<td>4</td>
+				<td>6</td>
+				<td>8</td>
+			</tr>
+			<tr>
+				<th>3</th>
+				<td colspan="2">3</td>
+				<td>6</td>
+				<td>9</td>
+				<td>12</td>
+			</tr>
+			<tr>
+				<th>4</th>
+				<td>4</td>
+				<td>8</td>
+				<td>12</td>
+				<td>16</td>
+			</tr>
+		</table>
 	</ol>
    </body>
  </html>
