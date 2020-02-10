@@ -1,0 +1,33 @@
+html{
+	font-family: sans-serif;
+}
+h1{
+	font-size: 24px;
+}
+h2{
+	font-size: 18px;
+	color: blue;
+}
+h2{
+	font-size: 18px;
+	color: blue;
+}
+h3{
+	font-size: 16px;
+}
+p{
+	font-size: 24;
+}
+.centered{
+	text-align: center;
+}
+.right{
+	text-align: right;
+}
+a {
+	color: red;
+}
+a:hover{
+	color:teal;
+}
+ul {list-style-type: square;}
