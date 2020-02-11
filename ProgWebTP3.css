@@ -8,10 +8,6 @@ h2{
 	font-size: 18px;
 	color: blue;
 }
-h2{
-	font-size: 18px;
-	color: blue;
-}
 h3{
 	font-size: 16px;
 }
@@ -32,4 +28,18 @@ a:hover{
 }
 ol {
 	list-style-type: lower-roman;
+}
+table.boxOffice{
+	width:100%;
+	padding:8px;
+}
+th{
+	font-variant:small-caps;
+	text-align: center;
+}
+tr:nth-child(even){
+	background-color:RGB(80, 80, 80);
+}
+td:hover{
+	background-color:#1c780c;
 }
