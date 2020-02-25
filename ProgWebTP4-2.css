@@ -1,0 +1,29 @@
+ul {
+  list-style-type: none;
+  padding: 0;
+  overflow: hidden;
+  height: 50px;
+  background-color: purple;
+  border-bottom-style:solid;
+	border-bottom-width:2px;
+}
+
+li {
+  float: left;
+  padding:10px;
+  width:100px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+  font-family:arial;
+  font-weight:bold;
+}
+
+#About{
+	float:right;
+}
