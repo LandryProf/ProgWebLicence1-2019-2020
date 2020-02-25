@@ -1,0 +1,23 @@
+.imgBoite{
+	width:180px;
+}
+
+div.divImages{
+	float: left;
+	margin-right:5px;
+	border-style:solid;
+	border-width:1px;
+	border-color:#aaaaaa;
+}
+
+div:hover.divImages{
+	opacity:0.5;
+}
+
+div.textImages{
+	text-align:center;
+	background-color:black;
+	color:white;
+	padding:5px;
+	margin-top:-5px;
+}
