@@ -1,0 +1,58 @@
+
+<!DOCTYPE html>
+<html>
+ <head>
+   <meta charset="utf-8">
+   <style>
+     div.cell {
+       background-color: silver;
+       margin: 0px;
+       padding: 15px;
+       border: 1px solid black;
+       float: left;
+     }
+	 div.line{
+		margin-top:15px;
+	 }
+   </style>
+   <script>
+     "use strict";
+   
+     function drawCheckerCell() {
+       document.write('<div class="cell"></div>');
+     }
+	 function drawCheckerLine(squareColumn){
+		document.write('<div class="line">');
+		for(var line=0; line<squareColumn; line++){
+			drawCheckerCell();
+		}
+		document.write('</div>');
+	 }
+	 function drawCheckerBoard(squareSize){
+	 var column = squareSize;
+		for(squareSize; squareSize>0;squareSize--){
+			drawCheckerLine(column);
+			document.write('<br />');
+		}
+	 }
+   </script>
+ </head>
+ <body>
+  <h2>Damier</h2>
+  <p>
+    Carré de 5x5
+  </p>
+  <script>
+    //drawCheckerCell();
+    //drawCheckerLine();
+    drawCheckerBoard(5);
+  </script>
+  <br />
+  <p>
+    Carré de 3x3
+  </p>
+  <script>
+    drawCheckerBoard(3);
+  </script>
+ </body>
+</html>
